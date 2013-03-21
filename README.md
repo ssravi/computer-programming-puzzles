@@ -3,9 +3,9 @@ Collaboration for programming puzzles
 
 Git has set standards for structured collaboration of repositories. Github has become the destination for every serious learner, programmer etc. It's on the path for becoming a central place for code commits and social contribution to open source. In the next few years, it will be used by every other sector for collaborating git commits in business development. Likes of project management, product management, students, learners are already active on github.
 
-Programmers Call
-=========================
-If you are a computer programmer or a software engineer or an architect, this repository is asking your help to help others who want to learn problem solving by looking at real code. Please come help.
+Call for Programmers
+====================
+If you are a computer programmer or an engineer or an architect, this repository is asking your help to help others who wants to learn problem solving by looking at real code. Please come help.
  
 Credit
 ======
@@ -21,13 +21,13 @@ File Structure
 It's pretty basic. The project directory has sub directories which are basics of computer science. Each division has a subdirectory with a programming language directory (Your problems and solutions should go to that specific language directory). If you are writing in a new language, please create a new directory for it and include your instructions for execution in README.md file.
 
 1. Data Structures
-   1. java
+    /java
 2. Divide and Conquer
-   1. java
+    /java
 3. Dynamic Programming
-   1. java
+    /java
 4. Algorithms 
-   1. java
+    /java
 
 General Note
 ============
