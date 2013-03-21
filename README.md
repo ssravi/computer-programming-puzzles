@@ -1,9 +1,9 @@
-Crowd-Collaboration
-===================
+Collaboration for programming puzzles
+======================================
 
 Git has set standards for structured collaboration of repositories. Github has become the destination for every serious learner, programmer etc. It's on the path for becoming a central place for code commits and social contribution to open source. In the next few years, it will be used by every other sector for collaborating git commits in business development. Likes of project management, product management, students, learners are already active on github.
 
-Computer Programmers Call
+Programmers Call
 =========================
 If you are a computer programmer or a software engineer or an architect, this repository is asking your help to help others who want to learn problem solving by looking at real code. Please come help.
  
@@ -29,7 +29,7 @@ It's pretty basic. The project directory has sub directories which are basics of
 4. Algorithms 
    1. Java
 
-Generat Note
+General Note
 ============
 I am still trying to keep it as basic as possible with the file structure, please use your smart brains to make it better and better with every push and pull requests.
 
