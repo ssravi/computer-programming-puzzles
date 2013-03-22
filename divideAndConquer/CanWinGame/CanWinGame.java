@@ -1,3 +1,4 @@
+package divideAndConquer.canwingame;
 import java.util.*;
 
 
