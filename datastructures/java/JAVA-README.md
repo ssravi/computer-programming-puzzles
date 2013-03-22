@@ -9,7 +9,7 @@ For executing java programs in this directory, please follow the instructions
 2. execute the following commands in your terminal (unix)
 
  compilation - 
-  cd ~/computer-programming-puzzles/algorithms/java/<datastructure>
+  cd ~/computer-programming-puzzles/datastructures/java/<datastructure>
    javac <program name>.Java
    
  running - 
