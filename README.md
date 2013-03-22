@@ -20,14 +20,10 @@ File Structure
 ==============
 It's pretty basic. The project directory has sub directories which are basics of computer science. Each division has a subdirectory with a programming language directory (Your problems and solutions should go to that specific language directory). If you are writing in a new language, please create a new directory for it and include your instructions for execution in README.md file.
 
-1. Data Structures
-    /java
-2. Divide and Conquer
-    /java
-3. Dynamic Programming
-    /java
-4. Algorithms 
-    /java
+1. datastructures
+    /linkedlist
+2. divideAndConquer
+    /canWinGame
 
 General Note
 ============

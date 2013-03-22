@@ -1,4 +1,4 @@
-package algorithms.java.linkedlist;
+package datastructures.linkedlist;
 import java.util.*;
 
 

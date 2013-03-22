@@ -1,4 +1,4 @@
-package algorithms.java.linkedlist;
+package datastructures.linkedlist;
 import java.util.*;
 
 /*
@@ -10,11 +10,11 @@ import java.util.*;
 public class ReverseLinkedList{
 
 	public static void main(String[] args){
-		BuildNodeFactory buildFactory = new BuildNodeFactory();
-		Node headNode = buildFactory.getNodes(10);
+
+		Node headNode = NodeUtils.buildNodes(10);
 		Node reverseHead = reverse(headNode);
 		System.out.print("The reversedLinkedList : ");
-		buildFactory.printNodes(reverseHead);
+		NodeUtils.printNodes(reverseHead);
 	}
 
 	private static Node reverse(Node headNode){
