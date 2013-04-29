@@ -4,8 +4,7 @@ import java.util.*;
 public class MergeSortList{
 
 	public static void main(String[] args){
-		BuildNodeFactory buildFactory = new BuildNodeFactory();
-		Node list = buildFactory.buildNodes(11);
+		Node list = NodeFactory.getNewList(11);
 
 		Node mergedList = mergeSort(list);
 

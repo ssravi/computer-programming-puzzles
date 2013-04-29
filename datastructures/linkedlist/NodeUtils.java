@@ -16,8 +16,4 @@ public class NodeUtils{
 		System.out.println();
 	}
 
-	public static Node buildNodes(int size){
-		BuildNodeFactory buildFactory = new BuildNodeFactory();
-		return buildFactory.buildNodes(size);
-	}
 }

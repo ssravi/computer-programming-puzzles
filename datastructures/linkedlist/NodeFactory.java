@@ -5,15 +5,12 @@ import java.util.*;
  * The purpose of this class is to build a linkedlist with a given size using random numbers 
  * and return headNode
  */
-public class BuildNodeFactory{
+public class NodeFactory{
 	private static int MAX_NUM = 500;
-	private Random randomGen = new Random();
-	private Node headNode;
-	public BuildNodeFactory(){
-		headNode = new Node(randomGen.nextInt(MAX_NUM), null);
-	}
 
-	public Node buildNodes(int size){
+	public static Node getNewList(int size){
+	  Random randomGen = new Random();
+	  Node headNode = new Node(randomGen.nextInt(MAX_NUM), null);
 	  Node currentNode = headNode;
 	  int inc = 0;
 	  System.out.print("Built linked list of " + size + " : ");

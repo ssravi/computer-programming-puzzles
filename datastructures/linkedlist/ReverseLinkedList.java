@@ -11,7 +11,7 @@ public class ReverseLinkedList{
 
 	public static void main(String[] args){
 
-		Node headNode = NodeUtils.buildNodes(10);
+		Node headNode = NodeFactory.getNewList(10);
 		Node reverseHead = reverse(headNode);
 		System.out.print("The reversedLinkedList : ");
 		NodeUtils.printNodes(reverseHead);
