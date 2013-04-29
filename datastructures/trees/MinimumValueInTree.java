@@ -8,8 +8,7 @@ import java.util.*;
 public class MinimumValueInTree{
 
 	public static void main(String[] args){
-		TreeFactory factory = new TreeFactory(10);
-		TreeNode root = factory.buildNewTree();
+		TreeNode root = TreeFactory.getNewTree(10);
 		System.out.println("The MinimumValueInTree for the tree : " + maxValue(root));
 		
 		System.out.println();

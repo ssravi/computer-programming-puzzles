@@ -8,8 +8,7 @@ import java.util.*;
 public class MaximumValueInTree{
 
 	public static void main(String[] args){
-		TreeFactory factory = new TreeFactory(10);
-		TreeNode root = factory.buildNewTree();
+		TreeNode root = TreeFactory.getNewTree(10);
 		System.out.println("The MaximumValueInTree for the tree : " + maxValue(root));
 		
 		System.out.println();

@@ -7,20 +7,13 @@ import java.util.*;
  */
 public class TreeFactory{
 	private static int MAX_NUM = 500;
-	private Random randomGen = new Random();
-	private TreeNode root;
-	private int size;
-	public TreeFactory(int size){
-		this.size = size;
-	}
 
-
-
-	public TreeNode buildNewTree(){
-		root = new TreeNode(randomGen.nextInt(MAX_NUM));
+	public static TreeNode getNewTree(int size){
+		Random randomGen = new Random();
+		TreeNode root = new TreeNode(randomGen.nextInt(MAX_NUM));
 		int count = 0;
 
-		while(count ++ < this.size){
+		while(count ++ < size){
 			int data =  randomGen.nextInt(MAX_NUM);
 			buildTree(root, data);
 		}		
@@ -31,7 +24,7 @@ public class TreeFactory{
 	  	return root;
 	}
 
-	private void printTree(TreeNode root){
+	private static void printTree(TreeNode root){
 		if(root == null){
 			return;
 		}
@@ -40,7 +33,7 @@ public class TreeFactory{
 		printTree(root.getRight());
 	}
 
-	private TreeNode buildTree(TreeNode root, int data){
+	private static TreeNode buildTree(TreeNode root, int data){
 		if(root == null){
 			return new TreeNode(data);
 		}
