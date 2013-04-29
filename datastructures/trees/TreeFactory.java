@@ -35,8 +35,8 @@ public class TreeFactory{
 		if(root == null){
 			return;
 		}
-		System.out.print(root.getData() + ",  ");
 		printTree(root.getLeft());
+		System.out.print(root.getData() + ",  ");
 		printTree(root.getRight());
 	}
 
@@ -45,7 +45,7 @@ public class TreeFactory{
 			return new TreeNode(data);
 		}
 
-		if(root.getData() <= data){
+		if(data <= root.getData()){
 			root.setLeft(buildTree(root.getLeft(), data));
 		} else {
 			root.setRight(buildTree(root.getRight(), data));
