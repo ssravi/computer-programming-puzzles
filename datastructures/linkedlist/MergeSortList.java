@@ -51,16 +51,16 @@ public class MergeSortList{
 			return list1;
 		}
 
-		Node newNode = null;
+		Node headNode = null;
 		if(list1.getData() < list2.getData()){
-			newNode = new Node(list1.getData(), null);
+			headNode = new Node(list1.getData(), null);
 			list1 = list1.getNext();
 		} else {
-			newNode = new Node(list2.getData(), null);
+			headNode = new Node(list2.getData(), null);
 			list2 = list2.getNext();
 		}
 
-		Node currentNode = newNode;
+		Node currentNode = headNode;
 
 		while(list1 != null && list2 != null){
 			if(list1.getData() < list2.getData()){
@@ -80,7 +80,7 @@ public class MergeSortList{
 			currentNode.setNext(list1);	
 		} 
 
-		return newNode;
+		return headNode;
 	}
 
 

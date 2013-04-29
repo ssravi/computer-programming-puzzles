@@ -9,19 +9,19 @@ public class MinimumValueInTree{
 
 	public static void main(String[] args){
 		TreeNode root = TreeFactory.getNewTree(10);
-		System.out.println("The MinimumValueInTree for the tree : " + maxValue(root));
+		System.out.println("The MinimumValueInTree for the tree : " + minValue(root));
 		
 		System.out.println();
 	}
 
-	public static int maxValue(TreeNode root){
+	public static int minValue(TreeNode root){
 		if(root == null){
 			return 0;
 		} else if(root.getLeft() == null){
 		 		return root.getData();		
 		} 
 		
-	    return	maxValue(root.getLeft());
+	    return	minValue(root.getLeft());
 	}
 
 }
